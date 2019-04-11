@@ -33,5 +33,7 @@
                 "workbench.action.quickOpen"
             ]
         }
-    ]
+    ],
+    "workbench.list.keyboardNavigation": "filter",
+    "workbench.list.automaticKeyboardNavigation": false
 }
