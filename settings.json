@@ -1,0 +1,37 @@
+{
+   "vim.insertModeKeyBindings": [
+        {
+            "before": ["f", "d"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "w", "H"],
+            "commands": [
+                "workbench.action.moveEditorToPreviousGroup"
+            ]
+        },
+        {
+            "before": ["<leader>", "w", "L"],
+            "commands": [
+                "workbench.action.moveEditorToPreviousGroup"
+            ]
+        },
+        {
+            "before": ["<leader>", "w"],
+            "after": ["<C-w>"]
+        },
+        {
+            "before": ["<leader>", "b", "b"],
+            "commands": ["workbench.action.showAllEditors"]
+        },
+        {
+            "before": ["<leader>", "p", "f"],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        }
+    ]
+}
